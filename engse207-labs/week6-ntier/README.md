@@ -32,7 +32,7 @@ week6-ntier/
 | Database | PostgreSQL |
 
 ## 👨‍💻 Author
-ุึุึ67543210062-5 นายภาคิน กันทะวงค์ - ENGSE207 Week 6
+67543210062-5 นายภาคิน กันทะวงค์ - ENGSE207 Week 6
 
 ---
 
