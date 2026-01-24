@@ -4,6 +4,9 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Task Board - N-Tier Architecture</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+Thai:wght@300;400;500;600&family=Space+Grotesk:wght@500;600;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="/css/style.css">
 </head>
 <body>
@@ -11,7 +14,7 @@
         <!-- Header -->
         <header class="header">
             <div class="header-content">
-                <h1>📋 Task Board</h1>
+                <h1><span class="brand-mark">📋 Task</span> Board</h1>
                 <p class="subtitle">N-Tier Architecture - Week 6</p>
             </div>
             <div class="connection-status" id="connectionStatus">
@@ -42,7 +45,7 @@
 
         <!-- Add Task Form -->
         <section class="add-task-section">
-            <h2>➕ Add New Task</h2>
+            <h2 class="section-title">➕ Add New Task</h2>
             <form id="addTaskForm" class="task-form">
                 <div class="form-row">
                     <div class="form-group flex-grow">

@@ -143,6 +143,13 @@ function renderTasks() {
     elements.countTodo.textContent = todoList.length;
     elements.countProgress.textContent = progressList.length;
     elements.countDone.textContent = doneList.length;
+
+    // Stagger reveal for freshly rendered cards
+    const cards = document.querySelectorAll('.task-card');
+    cards.forEach((card, index) => {
+        card.classList.add('reveal');
+        card.style.animationDelay = `${index * 60}ms`;
+    });
 }
 
 async function updateStats() {
